@@ -38,12 +38,8 @@ def ao_receber_mensagem(ws, mensagem):
     price = mensagem['data']['price']
     print(price)
 
-    if price > 9000:
-        vender()
-    elif price < 8100:
-        comprar()
-    else:
-        print('Aguardar')
+    if price < 10:
+        print('Muito baixo')
 
 
 
