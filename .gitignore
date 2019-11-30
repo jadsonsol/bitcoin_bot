@@ -1,3 +1,4 @@
 .vscode
 __pycache__
 credenciais.py
+.pytest_cache
